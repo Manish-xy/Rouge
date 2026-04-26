@@ -1,0 +1,33 @@
+{
+  "communities": {
+    "0": [
+      "auth_utils_requireauth",
+      "auth_utils_requireunauth",
+      "auth_utils_ts"
+    ],
+    "1": [
+      "encryption_decrypt",
+      "encryption_encrypt",
+      "encryption_ts"
+    ],
+    "2": [
+      "utils_cn",
+      "utils_ts"
+    ],
+    "3": [
+      "auth_client_ts"
+    ],
+    "4": [
+      "auth_ts"
+    ],
+    "5": [
+      "db_ts"
+    ],
+    "6": [
+      "polar_ts"
+    ]
+  },
+  "cohesion": {},
+  "god_nodes": [],
+  "surprises": []
+}

@@ -4,7 +4,9 @@ import { createId } from "@paralleldrive/cuid2";
 import { useReactFlow } from "@xyflow/react";
 import {
   GlobeIcon,
+  MailIcon,
   MousePointerIcon,
+  Clock3Icon,
 } from "lucide-react";
 import { useCallback } from "react";
 import { toast } from "sonner";
@@ -45,6 +47,12 @@ const triggerNodes: NodeTypeOption[] = [
     description: "Runs the flow when a Stripe Event is captured",
     icon: "/logos/stripe.svg",
   },
+  {
+    type: NodeType.SCHEDULE_TRIGGER,
+    label: "Schedule (Cron)",
+    description: "Runs the flow automatically on a cron schedule",
+    icon: Clock3Icon,
+  },
 ];
 
 const executionNodes: NodeTypeOption[] = [
@@ -83,6 +91,12 @@ const executionNodes: NodeTypeOption[] = [
     label: "Slack",
     description: "Send a message to Slack",
     icon: "/logos/slack.svg",
+  },
+  {
+    type: NodeType.EMAIL,
+    label: "Email",
+    description: "Send an email using Resend API",
+    icon: MailIcon,
   },
 ];
 

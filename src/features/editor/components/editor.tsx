@@ -12,6 +12,7 @@ import {
   type EdgeChange,
   type Connection,
   Background,
+  BackgroundVariant,
   Controls,
   MiniMap,
   Panel,
@@ -79,9 +80,19 @@ export const Editor = ({ workflowId }: { workflowId: string }) => {
         panOnDrag={false}
         selectionOnDrag
       >
-        <Background />
+        <Background
+          variant={BackgroundVariant.Dots}
+          gap={22}
+          size={2}
+          color="rgba(227, 208, 155, 0.85)"
+          bgColor="rgba(10, 16, 31, 1)"
+        />
         <Controls />
-        <MiniMap />
+        <MiniMap
+          pannable
+          zoomable
+          className="!rounded-md !border !border-slate-300 !bg-slate-100/95"
+        />
         <Panel position="top-right">
           <AddNodeButton />
         </Panel>

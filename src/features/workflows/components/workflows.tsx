@@ -162,9 +162,9 @@ export const WorkflowItem = ({
       title={data.name}
       subtitle={
         <>
-          Updated {formatDistanceToNow(data.updatedAt, { addSuffix: true })}{" "}
+          Updated <span suppressHydrationWarning>{formatDistanceToNow(data.updatedAt, { addSuffix: true })}</span>{" "}
           &bull; Created{" "}
-          {formatDistanceToNow(data.createdAt, { addSuffix: true })}
+          <span suppressHydrationWarning>{formatDistanceToNow(data.createdAt, { addSuffix: true })}</span>
         </>
       }
       image={

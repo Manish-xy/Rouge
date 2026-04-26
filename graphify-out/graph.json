@@ -1,0 +1,148 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "auth-client.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-client.ts",
+      "source_location": "L1",
+      "id": "auth_client_ts"
+    },
+    {
+      "label": "auth-utils.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-utils.ts",
+      "source_location": "L1",
+      "id": "auth_utils_ts"
+    },
+    {
+      "label": "requireAuth()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-utils.ts",
+      "source_location": "L5",
+      "id": "auth_utils_requireauth"
+    },
+    {
+      "label": "requireUnauth()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-utils.ts",
+      "source_location": "L23",
+      "id": "auth_utils_requireunauth"
+    },
+    {
+      "label": "auth.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth.ts",
+      "source_location": "L1",
+      "id": "auth_ts"
+    },
+    {
+      "label": "db.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\db.ts",
+      "source_location": "L1",
+      "id": "db_ts"
+    },
+    {
+      "label": "encryption.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\encryption.ts",
+      "source_location": "L1",
+      "id": "encryption_ts"
+    },
+    {
+      "label": "encrypt()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\encryption.ts",
+      "source_location": "L5",
+      "id": "encryption_encrypt"
+    },
+    {
+      "label": "decrypt()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\encryption.ts",
+      "source_location": "L6",
+      "id": "encryption_decrypt"
+    },
+    {
+      "label": "polar.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\polar.ts",
+      "source_location": "L1",
+      "id": "polar_ts"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\utils.ts",
+      "source_location": "L1",
+      "id": "utils_ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\utils.ts",
+      "source_location": "L4",
+      "id": "utils_cn"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-utils.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "auth_utils_ts",
+      "_tgt": "auth_utils_requireauth",
+      "source": "auth_utils_ts",
+      "target": "auth_utils_requireauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\auth-utils.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "_src": "auth_utils_ts",
+      "_tgt": "auth_utils_requireunauth",
+      "source": "auth_utils_ts",
+      "target": "auth_utils_requireunauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\encryption.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "encryption_ts",
+      "_tgt": "encryption_encrypt",
+      "source": "encryption_ts",
+      "target": "encryption_encrypt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\encryption.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "encryption_ts",
+      "_tgt": "encryption_decrypt",
+      "source": "encryption_ts",
+      "target": "encryption_decrypt"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "C:\\Users\\Manis\\Desktop\\New folder\\nodebase\\src\\lib\\utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "utils_ts",
+      "_tgt": "utils_cn",
+      "source": "utils_ts",
+      "target": "utils_cn"
+    }
+  ]
+}
